@@ -19,13 +19,13 @@
 </template>
 
 <script>
-import { reactive, ref } from 'vue';
+import { ref } from 'vue';
 
 // @ is an alias to /src
 //import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'RefDemo',
 
   //setup as always run before any life cycle hooks are executed (mounted, created, etc.)
   //'this' is not available in the setup function

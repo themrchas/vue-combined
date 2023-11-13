@@ -3,6 +3,10 @@ import RefDemo from '../views/RefDemo.vue'
 import ReactiveDemo from '../views/ReactiveDemo.vue'
 import Basics from '../views/Basics.vue'
 
+import Model from '../views/atomic/Model.vue'
+import Looping from '../views/atomic/Looping.vue'
+import Bind from '../views/atomic/Bind.vue'
+
 const routes = [
   {
     path: '/',
@@ -18,6 +22,21 @@ const routes = [
     path: '/basics',
     name: 'vueBasics',
     component: Basics
+  },
+  {
+    path:'/model',
+    name: "model",
+    component: Model
+  },
+  {
+    path:'/looping',
+    name: "looping",
+    component: Looping
+  },
+  {
+    path:'/bind',
+    name: "bind",
+    component: Bind
   }
  
 ]
