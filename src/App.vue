@@ -3,6 +3,7 @@
     <router-link :to="{ name: 'vueBasics'}">Vue Basics</router-link>
     <router-link :to="{ name: 'refDemo'}">Ref Demo</router-link>
     <router-link :to="{ name: 'reactiveDemo'}">Reactive Demo</router-link>
+    <router-link :to="{ name: 'watchDemo'}">Watch Demo</router-link>
 
   </nav>
   

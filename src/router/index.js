@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import RefDemo from '../views/RefDemo.vue'
 import ReactiveDemo from '../views/ReactiveDemo.vue'
+import WatcherDemo from '../views/WatcherDemo.vue'
 import Basics from '../views/Basics.vue'
 
 import Model from '../views/atomic/Model.vue'
@@ -17,6 +18,11 @@ const routes = [
     path: '/reactive',
     name: 'reactiveDemo',
     component: ReactiveDemo
+  },
+  {
+    path: '/watch',
+    name: 'watchDemo',
+    component: WatcherDemo
   },
   {
     path: '/basics',
